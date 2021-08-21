@@ -1,0 +1,5 @@
+- use redis to cache data source result in ms-movie
+- create common error handler
+- enable linting in all services
+- add services to monorepo
+-

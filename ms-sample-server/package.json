@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "test": "tput setaf 1; echo ADD TEST CASES to ms-sample-server && exit 0"
   },
   "keywords": [],
   "author": "",
