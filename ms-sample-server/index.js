@@ -17,4 +17,6 @@ const server = new ApolloServer({
   resolvers,
 });
 
-server.listen().then(({ url }) => console.log(`server started on ${url}`));
+server
+  .listen(4003)
+  .then(({ url }) => console.log(`ms-sample-server started on ${url}`));
