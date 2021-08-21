@@ -44,8 +44,6 @@ const typeDefs = gql`
 
   # Queries can fetch a list of libraries
   type Query {
-    # A sample query
-    sayHello(name: String): String!
     libraries: [Library]
   }
 `;
@@ -53,9 +51,6 @@ const typeDefs = gql`
 // Resolver map
 const resolvers = {
   Query: {
-    // Resolver params:  parent, args, context, info
-
-    sayHello: (_, { name }) => `hello ${name}`,
     libraries() {
       // Return our hardcoded array of libraries
       return libraries;
