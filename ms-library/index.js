@@ -12,11 +12,13 @@ const libraries = [
 // The branch field of a book indicates which library has it in stock
 const books = [
   {
+    id: 1,
     title: 'The Awakening',
     author: 'Kate Chopin',
     branch: 'riverside',
   },
   {
+    id: 2,
     title: 'City of Glass',
     author: 'Paul Auster',
     branch: 'downtown',

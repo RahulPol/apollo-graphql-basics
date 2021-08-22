@@ -1,3 +1,24 @@
+interface Item {
+  id: Int
+  price: Float
+}
+
+type Book implements Item {
+  id: Int
+  vac: String
+  price: Float
+}
+
+type Movie implements Item {
+  id: Int
+  gtin: String
+  price: Float
+}
+
+union Product = Book | Movie
+
 type Query {
   sample: Int
+  products: [Product!]
+  product(id: Int): Product
 }
