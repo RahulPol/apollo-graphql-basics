@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js | npx pino-pretty",
-    "test": "tput setaf 1; echo ADD TEST CASES to ms-sample-server && exit 0"
+    "test": "tput setaf 1; echo ADD TEST CASES to ms-sample-server; tput sgr0 && exit 0"
   },
   "keywords": [],
   "author": "",
