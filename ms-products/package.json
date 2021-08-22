@@ -1,0 +1,19 @@
+{
+  "name": "ms-products",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js | npx pino-pretty",
+    "test": "tput setaf 1; echo ADD TEST CASES to ms-products && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.3.2",
+    "apollo-server": "^3.1.2",
+    "graphql": "^15.5.1",
+    "nodemon": "^2.0.12"
+  }
+}
